@@ -1,4 +1,3 @@
-import StoreFront from '/front.jpg';
 import ChickenBiryani from '/chickenbiryani.jpg';
 import RiceChana from '/whitericechana.jpg';
 import Menu1 from '/menu1.png';
@@ -149,7 +148,7 @@ function Menu() {
           '>
             Full Menu (Click to Expand)
           </h2>
-          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg" target="_blank" rel="noopener noreferrer">
+          <a href="https://restaurantsofontario.github.io/tasteofdanforth/menu1.png" target="_blank" rel="noopener noreferrer">
             <img src={Menu1} />
           </a>
         </div>

@@ -1,6 +1,5 @@
 import Hours from '../Hours/Hours'
 import Location from '../Location/Location'
-import StoreFront from '/front.jpg';
 import Plate3 from '/plate3.jpg';
 import Plate1 from '/plate1.jpg';
 
