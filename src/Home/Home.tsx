@@ -1,6 +1,6 @@
 import Hours from '../Hours/Hours'
 import StoreFront from '/front.jpg'
-import Wrap1 from '/wrap1.jpg'
+import Plate5 from '/plate5.jpg'
 
 function Home() {
   return (
@@ -21,9 +21,8 @@ function Home() {
           text-balance
           text-white
           sm:text-7xl
-          italic
         '>
-          SHAWARMA EMPIRE
+          TASTE OF DANFORTH
         </h1>
         <p className='
           mt-8
@@ -35,7 +34,7 @@ function Home() {
           text-center
           px-4
         '>
-          AUTHENTIC PALESTINIAN CUISINE SINCE 2019
+          THE TRUE COMFORT (FOOD) OF DANFORTH
         </p>
       </div>
       {/* Content */}
@@ -63,7 +62,7 @@ function Home() {
             text-gray-800
             mb-4
           '>
-            Serving the Heart of Scarborough since 2019
+            The Heart of Danforth since 2019
           </h2>
           <p className='
             text-center
@@ -72,13 +71,13 @@ function Home() {
             leading-relaxed
             mb-6
           '>
-            Discover the rich flavors of authentic Middle Eastern cuisine at Shawarma Empire. From our perfectly spiced shawarma to freshly prepared sides and desserts, we’re proud to serve food that’s made with tradition, care, and bold taste. Whether you’re dining in or taking out, satisfaction is always on the menu.
+            Taste of Danforth is praised as the stand-out, must-visit spot in Scarborough for those craving authentic South Asian cuisine. With its delicious offerings, friendly service, and inviting ambiance, it's a culinary gem that continues to delight both locals and visitors alike.
           </p>
           <div className='
             flex
           '>
             <img 
-              src={Wrap1} 
+              src={StoreFront} 
               className='
                 object-cover
                 w-1/4
@@ -90,7 +89,7 @@ function Home() {
               '
             />
             <img 
-              src={StoreFront} 
+              src={Plate5} 
               className='
                 object-cover
                 w-1/4
@@ -134,11 +133,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"This was the best dinner!! The salad is super fresh, rice was so flavourful, and the protein portions are generous. I also really liked their hot sauce. Highly recommend!!!"</p>
+              <p>"[Taste of Danforth] was an incredible experience!"</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Stephanie via Google</span>
+              '>– Anisa via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -146,11 +145,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"If you're craving authentic shawarma, this place is a must-visit!"</p>
+              <p>"The snacks they offer are quite tasty, making it one of the top choices in the neighborhood."</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Ramin via Google</span>
+              '>– Stephen via Google</span>
             </div>
             <div className='
               bg-gray-100
@@ -158,11 +157,11 @@ function Home() {
               rounded-lg
               shadow-sm
             '>
-              <p>"I’ve been here hundreds of times over a decade and not only is it hands down still the best shawarma and falafel, but don’t sleep on the lentil soup! Liquid gold I tell you."</p>
+              <p>"Best samosa I've ever had in my life! Stopped to pick up more on my way home."</p>
               <span className='
                 text-sm
                 text-gray-500
-              '>– Alex via Google</span>
+              '>– Leslie via Google</span>
             </div>
           </div>
         </div>

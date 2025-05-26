@@ -14,7 +14,7 @@ function Footer({setActiveTab}: headerProps) {
         p-2
         lg:px-8
         text-sm/6 font-semibold
-        text-red-500
+        text-blue-400
         bg-black/80
       '>
         <button type='button' onClick={() => {setActiveTab('Contact')}} className='

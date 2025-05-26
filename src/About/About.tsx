@@ -1,7 +1,8 @@
 import Hours from '../Hours/Hours'
 import Location from '../Location/Location'
-import Ahed from '/ahed.jpg'
-import Fresh from '/fresh.jpg'
+import StoreFront from '/front.jpg';
+import Plate3 from '/plate3.jpg';
+import Plate1 from '/plate1.jpg';
 
 function About() {
 
@@ -66,7 +67,7 @@ function About() {
                 text-gray-800
                 text-center
               '>
-                Authentic Food in your Neighbourhood
+                Danforth's Comfort Food for Over 4 Years
               </h3>
               <p className='
                 text-center
@@ -75,11 +76,11 @@ function About() {
                 leading-relaxed
                 flex-grow
               '>
-                Ahed started this place with a passion for sharing the food he grew up with in the West Bank. From day one, he's been hands-on, making sure every dish that leaves the kitchen reflects the same quality and care he's always believed in. People come here for the shawarma, but they come back for the warmth and heart we put into everything. It's that mix of tradition, flavor, and generosity that's made Shawarma Empire a Scarborough staple.
+                At Taste of Danforth, we started small—with a passion for great food, honest ingredients, and a dream to bring authentic South Asian flavors to our local community. What began as a humble kitchen has grown into a beloved spot on Danforth Avenue, where every dish is crafted with care, culture, and a whole lot of heart. Thanks to the support of our amazing customers and the dedication of our team, we've become more than just a restaurant—we're a destination for flavor, tradition, and warm hospitality. Each plate tells a tale of where we came from—and where we're headed, so come be part of our story!
               </p>
             </div>
             <img 
-              src={Ahed} 
+              src={Plate3} 
               className='
                 object-cover
                 rounded-lg
@@ -97,7 +98,7 @@ function About() {
             gap-4
           '>
             <img 
-              src={Fresh} 
+              src={Plate1} 
               className='
                 object-cover
                 rounded-lg
@@ -119,7 +120,7 @@ function About() {
                 text-gray-800
                 text-center
               '>
-                Never less than Fresh
+                A Generous Sprinkle of Authentic
               </h3>
               <p className='
                 text-center
@@ -128,7 +129,7 @@ function About() {
                 leading-relaxed
                 flex-grow
               '>
-                At Shawarma Empire, fresh ingredients are at the heart of everything we make. Every morning, we prep our veggies by hand — crisp lettuce, juicy tomatoes, crunchy cucumbers, and bright parsley, all chopped fresh daily. Our meats are marinated in-house with a blend of traditional Middle Eastern spices, then slow-cooked to lock in flavor and tenderness. We don’t cut corners — from our creamy hummus to our tangy pickled turnips, everything is made with care using real, quality ingredients. It’s that commitment to freshness that keeps our food tasting bold, vibrant, and true to its roots.
+                we believe great food starts with fresh ingredients and a love for tradition. Every dish on our menu is made using time-honored recipes and bold, classic spices that capture the true essence of South Asian cuisine. From the first sizzle in the pan to the final garnish, we take pride in delivering food that's not just delicious—but genuinely authentic. Our meats are halal and marinated in-house, our vegetables are hand-selected, and every bite is a reflection of our commitment to quality and culture.
               </p>
             </div>
           </div>

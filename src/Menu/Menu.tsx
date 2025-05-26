@@ -1,7 +1,7 @@
-import Wrap1 from '/wrap1.jpg'
-import Plate1 from '/plate1.jpg'
-import Menu1 from '/menu1.jpg'
-import Menu2 from '/menu2.jpg'
+import StoreFront from '/front.jpg';
+import ChickenBiryani from '/chickenbiryani.jpg';
+import RiceChana from '/whitericechana.jpg';
+import Menu1 from '/menu1.png';
 
 function Menu() {
 
@@ -51,7 +51,7 @@ function Menu() {
             text-gray-800
             text-center
           '>
-            Scarborough's Favourites
+            Danforth's Picks
           </h2>
           <div className='
             flex
@@ -65,14 +65,14 @@ function Menu() {
               text-gray-800
               min-w-[200px]
             '>
-              ▼ Chicken Shawarma Wrap - $7.49
+              ▼ Chicken Biryani - $10.99
             </h3>
             <p className='
               text-gray-600
               text-lg
               leading-relaxed
             '>
-              The chicken shawarma wrap at Shawarma Empire is a flavorful blend of thinly sliced, marinated chicken, grilled to perfection and wrapped in a soft pita. It's layered with fresh veggies, tangy pickles, and creamy garlic and tahini sauce, delivering a bold, savory bite in every mouthful.
+              Fragrant basmati rice layered with tender, marinated chicken, slow-cooked with aromatic spices and herbs. Each bite delivers bold flavor, rich texture, and that perfect touch of heat. Served hot and fresh
             </p>
           </div>
           <div className='
@@ -84,25 +84,29 @@ function Menu() {
             md:my-8
           '>
             <img 
-              src={Wrap1} 
+              src={ChickenBiryani} 
               className='
                 object-cover
                 h-80
-                flex-grow
                 rounded-lg
                 shadow-2xl
+                w-full
                 md:-mt-8
+                md:w-1/4
+                flex-grow
               '
             />
             <img 
-              src={Plate1} 
+              src={RiceChana} 
               className='
                 object-cover
                 h-80
-                flex-grow
+                w-full
                 rounded-lg
                 shadow-2xl
                 md:-mb-8
+                md:w-1/4
+                flex-grow
               '
             />
           </div>
@@ -118,7 +122,7 @@ function Menu() {
               leading-relaxed
               text-right
             '>
-              The beef shawarma plate at Shawarma Empire features tender, marinated strip loin beef, thinly sliced and served over a bed of seasoned rice. Accompanied by fresh salad and creamy hummus, this hearty dish offers a satisfying taste of authentic Middle Eastern cuisine.
+              Fluffy basmati rice paired with slow-cooked chickpeas in a rich, spiced gravy—it's wholesome, hearty, and full of flavor. Perfect for a quick lunch or a cozy classic dinner.
             </p>
             <h3 className='
               text-3xl
@@ -126,7 +130,7 @@ function Menu() {
               text-gray-800
               min-w-[200px]
             '>
-              ▲ Beef Shawarma Plate - $15.99
+              ▲ White Rice with Chana - $8.99
             </h3>
           </div>
         </div>
@@ -147,9 +151,6 @@ function Menu() {
           </h2>
           <a href="https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg" target="_blank" rel="noopener noreferrer">
             <img src={Menu1} />
-          </a>
-          <a href="https://restaurantsofontario.github.io/shawarmaempire/menu2.jpg" target="_blank" rel="noopener noreferrer">
-            <img src={Menu2} />
           </a>
         </div>
       </div>
