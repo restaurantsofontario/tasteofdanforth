@@ -335,7 +335,7 @@ Error generating stack: `+a.message+`
             text-4xl\r
             font-semibold\r
             text-gray-800\r
-          `,children:"Full Menu (Click to Expand)"}),T.jsx("a",{href:"https://restaurantsofontario.github.io/shawarmaempire/menu1.jpg",target:"_blank",rel:"noopener noreferrer",children:T.jsx("img",{src:Gg})})]})]})]})}function v0(){return T.jsx(T.Fragment,{children:T.jsxs("div",{className:`\r
+          `,children:"Full Menu (Click to Expand)"}),T.jsx("a",{href:"https://restaurantsofontario.github.io/tasteofdanforth/menu1.png",target:"_blank",rel:"noopener noreferrer",children:T.jsx("img",{src:Gg})})]})]})]})}function v0(){return T.jsx(T.Fragment,{children:T.jsxs("div",{className:`\r
         flex\r
         flex-col\r
         items-center\r
